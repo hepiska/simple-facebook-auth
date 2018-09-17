@@ -1,0 +1,39 @@
+{
+  "name": "simple-facebook-auth",
+  "version": "1.0.0",
+  "description": "facebook auth react component",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hepiska/simple-google-auth.git"
+  },
+  "keywords": [
+    "facebook",
+    "js",
+    "auth",
+    "react"
+  ],
+  "author": "hepiska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hepiska/simple-google-auth/issues"
+  },
+  "homepage": "https://github.com/hepiska/simple-google-auth#readme",
+  "dependencies": {
+    "react": "^16.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}

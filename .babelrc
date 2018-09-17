@@ -1,0 +1,19 @@
+{
+    "presets": [
+      "react", 
+      ["env",
+      {
+          "targets": {
+              "browsers": "last 2 versions"
+          },
+          "loose": true,
+          "modules": false
+      }
+      ]
+    ],
+    "ignore": ["./dist"],
+    "plugins": [
+      "babel-plugin-transform-class-properties",
+      "babel-plugin-transform-object-rest-spread"
+    ]
+  }

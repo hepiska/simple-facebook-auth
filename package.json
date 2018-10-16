@@ -1,6 +1,6 @@
 {
   "name": "simple-facebook-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "facebook auth react component",
   "main": "dist/index.js",
   "scripts": {

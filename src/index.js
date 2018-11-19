@@ -1,7 +1,7 @@
 import React from "react";
 // import login from '../../blocks/modals/login'
 
-export const GoogleLogout = () => {};
+export const GoogleLogout = () => { };
 
 function initScript(d, s, id, appId) {
   return new Promise(res => {
@@ -44,7 +44,7 @@ class FBAuth extends React.Component {
       () => {
         FBInit.api(
           "/me",
-          { fields: "last_name,email,first_name" },
+          { fields: "last_name,email,first_name,picture" },
           meResponse => {
             const output = {
               profile: meResponse
